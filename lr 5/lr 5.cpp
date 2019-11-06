@@ -11,7 +11,7 @@ int main()
 	float y, x = a;
 	while (x <= b)
 	{
-		y = tan(pow(x, 3)) + 2 * sin(x) - 3;
+		y = tan(pow(x, 4)) + 2 * sin(x) - 3;
 		cout << x << endl;
 		cout << y << endl;
 		x += h;
